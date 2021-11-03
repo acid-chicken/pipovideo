@@ -1,0 +1,20 @@
+diff --git a/package.json b/package.json
+index 428ead2974fedf467c2dfee36ca3a410664c2de7..f2bc253f2c951b2145f9a85ca26078c1c0e12fcc 100644
+--- a/package.json
++++ b/package.json
+@@ -18,9 +18,9 @@
+     },
+     "./yargs": [
+       {
+-        "require": "./yargs"
++        "require": "./yargs.cjs"
+       },
+-      "./yargs"
++      "./yargs.cjs"
+     ]
+   },
+   "type": "module",
+diff --git a/yargs b/yargs.cjs
+similarity index 100%
+rename from yargs
+rename to yargs.cjs

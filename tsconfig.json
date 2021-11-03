@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["dom", "esnext"],
+    "module": "esnext",
+    "strict": true,
+    "target": "esnext"
+  },
+  "exclude": [".yarn"],
+  "include": ["src/**/*.ts"]
+}
